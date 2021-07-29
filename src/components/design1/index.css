@@ -1,0 +1,178 @@
+.App {
+    text-align: center;
+  }
+  
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    font-size: calc(10px + 2vmin);
+    color: white;
+    font-family: Lobster;
+  }
+
+  
+  .App-link {
+    color: #61dafb;
+  }
+  #Home h2{
+    position: absolute;
+    animation: left-to-center 3s infinite ;
+    top: 50%;
+    line-height: 7rem;
+    font-size: 3rem;
+  }
+  
+  @keyframes left-to-center {
+    0%{
+        transform: translateX(0%);
+        left: 0%; 
+    }
+    100% {
+        transform: translateX(-50%);
+        left: 50%; 
+    }
+  }
+  #Home {
+    position: relative;
+  }
+  #Home img {
+    position: absolute;
+    left: 39%;
+    top:20%;
+    animation: HomeImage 3s infinite;
+    border-radius: 50%;
+    height: 30%;
+  }
+  #Home h1{
+    position: absolute;
+    animation: right-to-center 3s infinite;
+    top: 60%;
+    font-size: 4rem;
+  }
+  @keyframes HomeImage {
+    0% { 
+      opacity: .1;
+  }
+
+  25% {
+    opacity: .2;
+  }
+
+  50% {
+    opacity: .5;
+  }
+  75% {
+    opacity: .7;
+  }
+  100% {
+    opacity: 1;
+  }
+  }
+  @keyframes right-to-center {
+    0% {
+      transform: translateX(0%);
+      right: 0%; 
+  }
+  50%, 100% {
+      transform: translateX(50%);
+      right: 50%; 
+  }
+  }
+  .card-title, .card-subtitle {
+    padding-left: .75rem;
+  }
+
+  .card-text {
+    font-size: 1.12rem;
+  }
+
+#AboutMeLogo, #AboutMeDetail {
+  /* display: flex; */
+  justify-content: center;
+}
+
+.gradientBg {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
+}
+
+
+.card1:hover
+{
+        box-shadow:
+                1px 1px black,
+                2px 2px black,
+                3px 3px black;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+}
+
+#ExperianceLogo img {
+  width: 70%;
+}
+#ExperianceLogo img:hover {
+  transform: scale(1.1);
+}
+#About img:hover {
+  transform: scale(1.1);
+}
+
+#About img {
+  height: 35rem;
+}
+
+.card:hover
+{
+        -webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+}
+
+.custom-height {
+  min-height: 100vh;
+}
+
+
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+.custom-background {
+  background-color: #2a2a72;
+  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+}
