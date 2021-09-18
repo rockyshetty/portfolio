@@ -84,7 +84,7 @@ function Design() {
     }
   ]
   const Contacts = () => {
-    return <footer className="row" style={{color: 'slategrey'}} >
+    return <footer className="row" id="Contact" style={{color: 'slategrey'}} >
       {ContactsData.map(value => {
         return <div className="col">
           <p className="text-center"><div className="rotate-contact-icon">{value.logo}</div></p>
@@ -113,7 +113,7 @@ function Design() {
             in the department of Electonics and Comunication.</p>
           <p>
             I have 2+ year of experiance in Full stack development as associate software developer.
-            In my experiance i got apportunity to work on various technolgies & tools, folowed agile and  waterfall model development .
+            In my experiance i got apportunity to work on various technolgies & tools, followed agile and  waterfall model development .
           </p>
           <p>
             I am passionate about technolgies and try again untill successd believer.
