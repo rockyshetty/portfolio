@@ -98,19 +98,10 @@
 
 .gradientBg {
   background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
+  /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);  */
 }
 
 
-.card1:hover
-{
-        box-shadow:
-                1px 1px black,
-                2px 2px black,
-                3px 3px black;
-        -webkit-transform: translateX(-3px);
-        transform: translateX(-3px);
-}
 
 #ExperianceLogo img {
   width: 70%;
@@ -126,13 +117,13 @@
   height: 35rem;
 }
 
-.card:hover
+/* .card:hover
 {
         -webkit-animation: swing 1s ease;
         animation: swing 1s ease;
         -webkit-animation-iteration-count: 1;
         animation-iteration-count: 1;
-}
+} */
 
 .custom-height {
   min-height: 100vh;
@@ -176,3 +167,21 @@
   background-color: #2a2a72;
   background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
 }
+
+.gradientBg .container {
+  justify-self: center;
+  align-items: center;
+  display: inline;
+}
+
+.rotate-contact-icon:hover {
+  transition: 0.9s;
+    transform: rotateY(360deg);
+}
+/* .card:hover {
+  transition:  .9s;
+  transform: rotateY(360deg);
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+} */
