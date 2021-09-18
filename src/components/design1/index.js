@@ -50,14 +50,14 @@ function Design() {
     ProjectType : "Personal",
     Project: "Portofolio",
     Description: "Simple Portfolio using React js, bootstrap, js, CSS, HTML",
-    gitHubLink: 'in progess',
+    gitHubLink: 'https://github.com/rockyshetty/my-portfolio',
     imageUrl: PP1
   },
   {
     ProjectType : "Personal",
     Project: "TODO APP",
     Description: "Simple REDUX Todo app using React js, bootstrap, js, CSS, HTML",
-    gitHubLink: 'in progess',
+    gitHubLink: 'https://github.com/rockyshetty/Todo-Redux',
     imageUrl: PP2
   }
   ];
@@ -175,7 +175,7 @@ function Design() {
          </Row>}
          {value.gitHubLink && <Row>
          <Card.Title className="col">Reference:</Card.Title>
-           <Card.Text className="col">{value.gitHubLink}</Card.Text>
+           <Card.Text className="col"><a href={value.gitHubLink}className="text-white">{value.gitHubLink}</a></Card.Text>
          </Row>}
          </div>
          <div >
