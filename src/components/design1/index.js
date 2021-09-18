@@ -50,14 +50,14 @@ function Design() {
     ProjectType : "Personal",
     Project: "Portofolio",
     Description: "Simple Portfolio using React js, bootstrap, js, CSS, HTML",
-    gitHubLink: 'https://github.com/rockyshetty/my-portfolio',
+    gitHubLink: 'http://rockyshetty.github.io/my-portfolio',
     imageUrl: PP1
   },
   {
     ProjectType : "Personal",
     Project: "TODO APP",
     Description: "Simple REDUX Todo app using React js, bootstrap, js, CSS, HTML",
-    gitHubLink: 'https://github.com/rockyshetty/Todo-Redux',
+    gitHubLink: 'http://rockyshetty.github.io/Todo-Redux',
     imageUrl: PP2
   }
   ];
